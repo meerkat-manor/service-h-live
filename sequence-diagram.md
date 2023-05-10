@@ -8,7 +8,7 @@ sequenceDiagram
     link app: standard @ https://github.com/meerkat-manor/service-h-live
 
     participant gateway
-    link app: status @ https://www.githubstatus.com/
+    link gateway: status @ https://www.githubstatus.com/
 
 
     app ->>+ gateway: Make API call
